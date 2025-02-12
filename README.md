@@ -1,0 +1,2 @@
+# keep xp on death
+ 

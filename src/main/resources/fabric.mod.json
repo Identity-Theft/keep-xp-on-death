@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "keep-xp-on-death",
+	"version": "${version}",
+	"name": "Keep XP on Death",
+	"description": "Keep your experience points on death",
+	"authors": [
+		"Identity Theft"
+	],
+	"contact": {
+		"homepage": "https://identity-theft.github.io/",
+		"sources": "https://github.com/Identity-Theft/keep-xp-on-death"
+	},
+	"license": "MIT",
+	"icon": "assets/keep-xp-on-death/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"identitytheft.keepxpondeath.KeepXpOnDeath"
+		]
+	},
+	"mixins": [
+		"keep-xp-on-death.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21",
+		"java": ">=21"
+	}
+}
