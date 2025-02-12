@@ -3,7 +3,7 @@
 	"id": "keep-xp-on-death",
 	"version": "${version}",
 	"name": "Keep XP on Death",
-	"description": "Keep your experience points on death",
+	"description": "Keep your experience points on death.",
 	"authors": [
 		"Identity Theft"
 	],
