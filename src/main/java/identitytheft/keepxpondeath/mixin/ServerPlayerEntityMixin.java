@@ -9,7 +9,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 @Mixin(ServerPlayerEntity.class)
 public class ServerPlayerEntityMixin {
     @Inject(method = "copyFrom", at = @At("RETURN"))
-    private void noXpToDrop(ServerPlayerEntity oldPlayer, boolean alive, CallbackInfo info) {
+    private void keepxpondeath$copyFrom(ServerPlayerEntity oldPlayer, boolean alive, CallbackInfo info) {
         ServerPlayerEntity player = (ServerPlayerEntity)(Object)this;
 
         player.experienceLevel = oldPlayer.experienceLevel;
